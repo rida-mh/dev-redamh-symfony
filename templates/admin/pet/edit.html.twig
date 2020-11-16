@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello FirstController!{% endblock %}
+
+{% block body %}
+
+    <h1>  editer  </h1>
+
+    <div class="container mt-4">
+
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <input type="submit"/>
+        {{ form_end(form) }}
+
+</div>
+{% endblock %}

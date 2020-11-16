@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed69409c-cb3e-4b96-b508-78fb2e1f8145" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../My/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/.idea/My.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/public/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Controller/FirstController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Entity/Breed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Entity/Gender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Entity/Owner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Entity/OwnerPet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Entity/Pet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Entity/Species.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Entity/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Form/PetsType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Repository/PetRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/src/Repository/TestRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/templates/acceuil/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/templates/admin/pet/ajouter.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/templates/admin/pet/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/templates/admin/pet/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/templates/first/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/templates/security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../My/translations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/NewMy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/FirstController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/FortestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Breed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Gender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Owner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/OwnerPet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Pet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Species.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/PetsType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/PetRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/TestRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Security/AppCustomAuthenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/acceuil/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/pet/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/pet/ajouter.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/pet/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/pet/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/user/_delete_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/user/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/user/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/user/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/user/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/user/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/first/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kD1cPGD8FdQKc9KDlYRkP2dn6X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\NewMy\templates\admin" />
+      <recent name="C:\wamp64\www\NewMy\templates\user" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed69409c-cb3e-4b96-b508-78fb2e1f8145" name="Default Changelist" comment="" />
+      <created>1605220426440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605220426440</updated>
+      <workItem from="1605220427504" duration="2968000" />
+      <workItem from="1605227965730" duration="1484000" />
+      <workItem from="1605292733999" duration="15238000" />
+      <workItem from="1605382545254" duration="5111000" />
+      <workItem from="1605454953925" duration="17294000" />
+      <workItem from="1605516018062" duration="12835000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="165" key="#Notifications" timestamp="1605375309386">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="392" y="165" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1605375309386" />
+    <state x="44" y="0" width="814" height="458" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605223054592">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="44" y="0" width="814" height="458" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605223054592" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605458842053">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1605458842053" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605459533262">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605459533262" />
+    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605518894952">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="96" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605518894952" />
+    <state x="446" y="64" key="NewPhpClassDialog" timestamp="1605518792855">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="64" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1605518792855" />
+    <state x="476" y="43" key="RollbackChangesDialog" timestamp="1605482340737">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="476" y="43" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605482340737" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1605227623078">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1605227623078" />
+    <state x="540" y="218" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605457104241">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="540" y="218" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1280.680@0.0.1280.680" timestamp="1605457104241" />
+    <state x="438" y="161" width="404" height="346" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1605401167206">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="161" width="404" height="346" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1280.680@0.0.1280.680" timestamp="1605401167206" />
+    <state x="484" y="114" width="456" height="453" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605463398910">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="484" y="114" width="456" height="453" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1605463398910" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1605481209312">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1605481209312" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1605524211312">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605524211312" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$USER_HOME$/OneDrive/Bureau/Symfony-4-Grafikart-master/src/Controller/HomeController.php</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$USER_HOME$/OneDrive/Bureau/Symfony-4-Grafikart-master/src/Controller/PropertyController.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Entity/User1.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

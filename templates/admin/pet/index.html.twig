@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Admin!{% endblock %}
+
+{% block body %}
+    <h1>Admin index</h1>
+
+    <div class="container mt-4">
+    <a target="_blank" href="{{ path('admin.pet.add') }}" class = "btn btn-success"> Ajouter </a>
+
+</div>
+
+    <div class="container mt-4">
+
+    <div class="table-responsive">
+        <table id="employee_data" class="table table-striped table-bordered">
+            <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>weightKg</th>
+            <th>chipNumber</th>
+            <th>gender</th>
+            <th>breed</th>
+            <th>crossed</th>
+            <th>COLOR</th>
+            <th>birthDate</th>
+            <th>STERILIZED</th>
+            <th>IS_DECEASED</th>
+            <th>CREATE_USER_ID</th>
+            <th>UPDATE_USER_ID</th>
+            <th>createDate</th>
+            <th>updateDate</th>
+            <th>Action</th>
+            </thead>
+            <tbody>
+            {% for pets in pet %}
+            <tr>
+                <td>{{ pets.Id}}</td>
+                <td>{{ pets.name}}</td>
+                <td>{{ pets.weightKg}}</td>
+                <td>{{ pets.chipNumber}}</td>
+                <td>{{ pets.gender}}</td>
+                <td>{{ pets.breed}}</td>
+                <td>{{ pets.crossed}}</td>
+                <td>{{ pets.color}}</td>
+                <td>{{ pets.birthDate|date('Y-m-d')}}</td>
+                <td>{{ pets.sterilized}}</td>
+                <td>{{ pets.isDeceased}}</td>
+                <td>{{ pets.createUserId}}</td>
+                <td>{{ pets.updateUserId}}</td>
+                <td>{{ pets.createDate|date('Y-m-d')}}</td>
+                <td>{{ pets.updateDate|date('Y-m-d')}}</td>
+                <td>
+                    <a target="_blank" href="{{ path('admin.pet.edit', {id: pets.id})  }}" class = "viewEdit btn btn-primary btn-xs"> Editer </a>
+                    <a target="_blank" href="{{ path('admin.pet.edit', {id: pets.id})  }}" class = "delete btn btn-danger btn-xs"> Delete </a>
+                </td>
+            </tr>
+            {% endfor  %}
+            </tbody>
+        </table>
+
+    </div>
+    </div>
+
+{% endblock %}

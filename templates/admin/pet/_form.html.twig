@@ -1,0 +1,29 @@
+{{ form_start(form) }}
+<div class="row">
+    <div class="col-md-4">{{ form_row(form.name) }}</div>
+    <div class="col-md-4">{{ form_row(form.weightKg) }}</div>
+    <div class="col-md-4">{{ form_row(form.chipNumber) }}</div>
+</div>
+<div class="row">
+    <div class="col-md-2">{{ form_row(form.crossed) }}</div>
+    <div class="col-md-2">{{ form_row(form.color) }}</div>
+    <div class="col-md-2">{{ form_row(form.sterilized) }}</div>
+    <div class="col-md-5">{{ form_row(form.isDeceased) }}</div>
+    </br>
+
+</div>
+    <div class="row">
+    <div class="col-md-2">{{ form_row(form.createDate) }}</div>
+        <div class="col-md-2">{{ form_row(form.birthDate) }}</div>
+        <div class="col-md-2">{{ form_row(form.updateDate) }}</div>
+        </br>
+
+        <div class="col-md-1">{{ form_row(form.updateUserId) }}</div>
+    <div class="col-md-2">{{ form_row(form.breed) }}</div>
+    <div class="col-md-2">{{ form_row(form.gender) }}</div>
+</div>
+{{ form_widget(form) }}
+</br>
+
+<button class="btn btn-primary">{{ button }}</button>
+{{ form_end(form) }}
