@@ -51,8 +51,8 @@
                 <td>{{ pets.createDate|date('Y-m-d')}}</td>
                 <td>{{ pets.updateDate|date('Y-m-d')}}</td>
                 <td>
-                    <a target="_blank" href="{{ path('admin.pet.edit', {id: pets.id})  }}" class = "viewEdit btn btn-primary btn-xs"> Editer </a>
-                    <a target="_blank" href="{{ path('admin.pet.edit', {id: pets.id})  }}" class = "delete btn btn-danger btn-xs"> Delete </a>
+                    <a target="_blank" href="{{ path('pet_edit', {id: pets.id})  }}" class = "viewEdit btn btn-primary btn-xs"> Editer </a>
+                    <a target="_blank" href="{{ path('pet_delete', {id: pets.id})  }}" class = "delete btn btn-danger btn-xs"> Delete </a>
                 </td>
             </tr>
             {% endfor  %}

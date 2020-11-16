@@ -1,9 +1,11 @@
 <?php
 
 namespace App\Controller;
+use App\Entity\User;
 use App\Form\PetsType;
 //use http\Env\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -19,6 +21,12 @@ use Symfony\Component\HttpFoundation\Response as ResponseAlias;
 
 use Symfony\Component\HttpFoundation\Request;
 
+
+
+/**
+ * @Route("/admin")
+ */
+
 class FirstController extends AbstractController
 {
 
@@ -33,7 +41,7 @@ public function __construct(PetRepository $Repository, EntityManagerInterface  $
 
 
     /**
-     * @Route("/admin", name="admin")
+     * @Route("/", name="admin")
      * @return ResponseAlias
      */
 
@@ -74,7 +82,7 @@ public function add(Request $request)
 }
 
     /**
-     * @Route("/admin/{id}", name="admin.pet.edit")
+     * @Route("/{id}/edit", name="pet_edit", methods={"GET","POST"})
      * @param Pet $pet
      * @param Request $request
      * @return ResponseAlias
@@ -103,96 +111,21 @@ public function add(Request $request)
     }
 
 
-
     /**
-     * @Route("/acceuil", name="show")
+     * @Route("/{id}/delete", name="pet_delete")
+     * @param Pet $pet
+     * @return RedirectResponse
      */
+    public function delete(Pet $pet): RedirectResponse
+    {
+        $em = $this->getDoctrine()->getManager();
+        $em->remove($pet);
+        $em->flush();
 
-public function show() : ResponseAlias
-{
-    $pet = $this->Repository->findbygender();
-//$pet[0] = setcrossed('1');
-	$this->em = flush();
-
-	//dump($pet);
-
-
-	/*
-	 $owner1 = $this->getDoctrine()
-        ->getRepository(Owner::class)
-        ->findAll();
-
-    if (!$owner1) {
-        throw $this->createNotFoundException(
-            'No owner1 found for id'
-        );
-    }
-	
-	var_dump($owner1);
-	*/
-	
-	/*
-$em = $this->getDoctrine()->getManager();
-$query = $em->createQuery('SELECT * FROM pet LIMIT 10');
-//$users = $query->getResult(); // array of ForumUser objects
-
-return $query->getResult();
-//print_r($query);
-
-
-$em = $this->getDoctrine()->getManager();
-$query = $em->createQuery(
-    'SELECT * FROM pet LIMIT 10');
- 
-$products = $query->getResult();
-*/ 
-
-
-
-/*
- $owner1 = $this->getDoctrine()
-        ->getRepository(Owner::class)
-        ->findAll();
-
-    if (!$owner1) {
-        throw $this->createNotFoundException(
-            'No owner1 found for id'
-        );
-    }
-
- $pet1 = $this->getDoctrine()
-        ->getRepository(Pet::class)
-        ->findAll();
-
-    if (!$pet1) {
-        throw $this->createNotFoundException(
-            'No pet1 found for id'
-        );
+        return $this->redirectToRoute("admin");
     }
 
 
-*/
-
- //print_r($owner1);
- 
- //return $this->render('acceuil/show.html.twig', ['owner1' => $owner1,'pet1' => $pet1]);
- return $this->render('acceuil/show.html.twig');
-
-
-
-
-   // return new Response('Check out this great owner: '.$owner->getName());
-    //return  $owner;
-
-
-
-
-
-
-    // or render a template
-    // in the template, print things with {{ owner.name }}
-    // return $this->render('owner/show.html.twig', ['owner' => $owner]);
-}
 
 
 }
